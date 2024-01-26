@@ -1,0 +1,30 @@
+type: code
+custom_name: Is there any room?
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun calculateRoom(...) { // Do not change the function's name
+    }
+
+    // Do not change the code below
+    fun main() {
+        val buffer = StringBuffer("Hello, Kotlin!")
+        val remainingRoom = calculateRoom(buffer)
+        println("Remaining room in the buffer: $remainingRoom")
+
+        buffer.append(" This is Hyperskill!")
+        val newRemainingRoom = calculateRoom(buffer)
+        println("Updated remaining room in the buffer: $newRemainingRoom")
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30275#comment
+status: Solved
+feedback:
+  message: |-
+    <html>[+] Test #1. OK
+
+    1 of 1 test(s) passed.</html>
+  time: "Sat, 01 Jul 2023 02:25:22 UTC"
+record: -1
+submission_language: kotlin

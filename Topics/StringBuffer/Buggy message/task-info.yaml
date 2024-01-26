@@ -1,0 +1,27 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    const val SENDER = "From: Ahmed@hyperskill.org\n"
+    const val RECEIVER = "To: Yusuf@hyperskill.org\n"
+    const val SUBJECT = "Subject: A Very Gentle Reminder\n"
+    const val FIRST_LINE = "\"Fix the bug in your code..\n"
+    const val SECOND_LINE = "or I will fix a bug for you.\""
+    // Do not change the lines above
+
+    fun main() {
+        val friendlyMessage = StringBuffer()
+
+        // write your solution here
+
+        println(friendlyMessage)
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30272#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sat, 01 Jul 2023 02:22:30 UTC"
+record: -1
+submission_language: kotlin

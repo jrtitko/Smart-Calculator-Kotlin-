@@ -1,0 +1,32 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    import kotlin.concurrent.thread
+
+    fun addNumbers(numbers: StringBuilder) {
+        for (i in 0 until 100_000) numbers.append(i.toString().first())
+    }
+
+    fun main() {
+        val numbers = StringBuilder(200_000)
+        val thread = thread(start = false, name = "Thread 1") {
+            addNumbers(numbers)
+        }
+
+        thread.start()
+        addNumbers(numbers)
+
+        thread.join()
+
+        println(numbers.length)
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30273#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sat, 01 Jul 2023 02:18:51 UTC"
+record: -1
+submission_language: kotlin

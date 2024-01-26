@@ -1,0 +1,19 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun verificationCode(): String {
+        // use these letters to create the code
+        val letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
+
+        // complete the function and then return the code
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/28392#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 23 Jun 2023 12:20:00 UTC"
+record: -1
+submission_language: kotlin
